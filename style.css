@@ -1,8 +1,17 @@
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th{
+	padding: 5px;
+}
 
 .book{
+	display: inline-block;
 	width: 180px;
-	
-	border: 1px solid black;
+	padding: 10px 0;
+
 }
 
 .book__picture img {
@@ -21,7 +30,7 @@
 
 .book__title{
 	text-align: center;
-	color: #5D98C5FF;
+	color: #5d98c5;
 	font-size: 12px;
 }
 
@@ -33,7 +42,7 @@
 .book__discount{
 	text-align: center;
 	font-size: 12px;
-	color: #8C2470FF;
+	color: #8c2470;
 }
 
 .book__buy{
@@ -42,12 +51,15 @@
 }
 
 .book__buy a{
-	border: 1px solid #5D98C5FF;
+	border: 1px solid #5d98c5;
 	border-radius: 2px;
-	background: #5D98C5FF;
+	background: #5d98c5;
 	padding: 5px 60px;
 	font-size: 12px;
 	color: #fff;
 	text-decoration: none;
+}
 
+.book_selected{
+	background: #a5c1d7;
 }
