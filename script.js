@@ -84,6 +84,13 @@ $(function() {
 			</div>` 
 		).appendTo(".slider");
 	};
+	$('.slider').slick({
+	 	infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: true,
+		variableWidth: true
+	});
 
 	var tableArr = [];
 	$('.book').click(function() {
