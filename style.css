@@ -51,6 +51,7 @@ td, th {
 	text-align: center;
 	color: #333333;
 	font-size: 13px;
+	overflow: hidden;
 }
 
 .book__price {
@@ -102,6 +103,14 @@ td, th {
 
 .slick-prev {
 	left: -46px;
+  	width: 40px;
+  	height: 40px;
+}
+
+.slick-next {
+	right: -45px;
+  	width: 40px;
+  	height: 40px;
 }
 
 .slick-slide { 
